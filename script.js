@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const textarea = document.createElement("textarea");
         textarea.className = "note-textarea";
-        textarea.placeholder = "Write your note here...";
+        textarea.placeholder = " ";
 
         const deleteButton = document.createElement("button");
         deleteButton.className = "delete-button";
